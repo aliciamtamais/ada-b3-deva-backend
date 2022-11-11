@@ -12,6 +12,6 @@ Aplicação criada com o **Java 11**, executando o **Spring Boot 2.4.1**
 - **Configuração aplicação**:
   - npm install (para instalar as dependências do Maven)
   - Setar variáveis de ambiente:
-    - MYSQL_DB_HOST=jdbc:mysql://127.0.0.1:3306/letscodebyada
-    - MYSQL_DB_USER=root
-    - MYSQL_DB_PASS=root
+    - MYSQL_DB_HOST=$URL_ENDPOINT
+    - MYSQL_DB_USER=$USER
+    - MYSQL_DB_PASS=$PASSWORD
